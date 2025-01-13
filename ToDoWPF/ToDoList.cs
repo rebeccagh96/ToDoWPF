@@ -20,7 +20,7 @@ namespace ToDoWPF
 
         public void RemoveTask(int index)
         {
-            if (index >= 0 && index > tasks.Count)
+            if (index >= 0 && index < tasks.Count)
             { 
                 tasks.RemoveAt(index);
             }
