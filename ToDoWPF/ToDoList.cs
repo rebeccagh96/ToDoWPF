@@ -9,7 +9,7 @@ namespace ToDoWPF
     /// <summary>
     /// Hanterar logiken för att lägga till, ta bort och visa to-do items.
     /// </summary>
-    internal class ToDoList
+    public class ToDoList
     {
         private List<string> tasks = new List<string>();
 

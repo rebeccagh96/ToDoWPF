@@ -23,7 +23,7 @@ namespace ToDoWPF
             string task = TaskTextBox.Text;
             if (!string.IsNullOrEmpty(task)) 
             {
-                _toDoList.AddTasks(task);
+                _toDoList.AddTask(task);
                 UpdateTaskList();
                 TaskTextBox.Clear();
             }
