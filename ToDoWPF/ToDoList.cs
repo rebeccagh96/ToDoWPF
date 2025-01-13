@@ -13,7 +13,7 @@ namespace ToDoWPF
     {
         private List<string> tasks = new List<string>();
 
-        public void AddTasks(string task)
+        public void AddTask(string task)
         {
             tasks.Add(task);
         }
